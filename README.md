@@ -5,6 +5,7 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 **Dependencies**
 
 *npm install*
+
 *npm install cypress*
 
 
