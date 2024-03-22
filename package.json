@@ -1,0 +1,22 @@
+{
+  "name": "cypress_amazon_example",
+  "version": "1.0.0",
+  "description": "Proof of concept Cypress e2e test to verify my understanding of the fundamentals of test automation.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cactusLabs/cypress_amazon_example.git"
+  },
+  "author": "John Ruggles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cactusLabs/cypress_amazon_example/issues"
+  },
+  "homepage": "https://github.com/cactusLabs/cypress_amazon_example#readme",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  }
+}
