@@ -2,12 +2,12 @@
 
 Proof of concept Cypress e2e test to verify my understanding of the fundamentals of test automation.
 
-*Dependencies*
+**Dependencies**
 
-'npm install'
-'npm install cypress'
+*npm install*
+*npm install cypress*
 
 
-*Usage*
+**Usage**
 
-'npm run cypress:open'
+*npm run cypress:open*
