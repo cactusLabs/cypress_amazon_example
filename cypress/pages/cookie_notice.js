@@ -6,7 +6,7 @@ class cookie_notice {
 
     click_acceptButton() {
         try {
-            cy.get(this.elements.acceptButton(), { timeout: 10000 }).should('be.visible').click();
+            cy.get(this.elements.acceptButton(), { timeout: 10000 }).click();
         }
         catch {
             console.log(`Cookie footer accept button node found.`);
