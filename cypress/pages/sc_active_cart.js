@@ -1,6 +1,6 @@
 class sc_active_cart {
     elements = {
-        activeItems: () => cy.get('div[data-name="Active Items"]'),
+        activeItemsProduct: () => cy.get('div[data-name="Active Items"] > * a.sc-product-link'),
         shoppingBasketText: () => cy.get('#sc-active-cart > * h1'),
     }
 }
