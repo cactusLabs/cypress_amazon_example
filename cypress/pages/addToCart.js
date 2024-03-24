@@ -1,5 +1,4 @@
-class selected_socks {
-
+class addToCart {
     elements = {
         addToBasketButton: () => "#add-to-cart-button",
     }
@@ -8,5 +7,4 @@ class selected_socks {
         cy.get(this.elements.addToBasketButton(), { timeout: 10000 }).should('be.visible').click();
     }
 }
-
-module.exports = new selected_socks();
+module.exports = new addToCart();

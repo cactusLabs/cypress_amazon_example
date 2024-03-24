@@ -1,5 +1,4 @@
 class cookie_notice {
-
     elements = {
         acceptButton: () => "#a-autoid-0.a-button.a-button-primary",
     }
@@ -13,5 +12,4 @@ class cookie_notice {
         }
     }
 }
-
 module.exports = new cookie_notice();
