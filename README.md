@@ -30,6 +30,5 @@ The following dependencies are required:
 
 ---
 **USAGE**
-
-Run script from terminal with:
+Clone this repo locally, install dependencies and run script from terminal with:
 * *npm run cypress:open*
