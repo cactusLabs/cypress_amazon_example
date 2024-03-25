@@ -2,7 +2,7 @@
 
 Proof of concept Cypress e2e test to verify my understanding of the fundamentals of test automation.
 
-
+---
 **BRIEF**
 
 *This is just a quick task to verify that the fundamentals of test automation are understood and can be put into practice.*
@@ -21,13 +21,15 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 * *Your automation code must be deployed to a **public** Git repository*
 * *You repository must have a readme file with instructions on how to run it on a fresh machine*
 
-
+---
 **DEPENDENCIES**
+
 The following dependecies are required:
 * *npm install*
 * *npm install cypress*
 
-
+---
 **USAGE**
+
 Run script from terminal with:
 * *npm run cypress:open*
