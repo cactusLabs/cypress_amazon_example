@@ -30,4 +30,4 @@ The following dependecies are required:
 
 **USAGE**
 Run script from terminal with:
-*npm run cypress:open*
+* *npm run cypress:open*
