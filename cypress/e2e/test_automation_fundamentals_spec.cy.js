@@ -12,16 +12,13 @@ describe('Verify an understanding of the fundamentals of test automation', () =>
         navbar_main.elements.searchSubmitButton().click();
         search_results.elements.firstSearchResult().click();
         addToCart.elements.addToBasketButton().click(); 
-
         // Assert that an item has been added to the cart
         navbar_main.elements.navCartCount().should('have.text', '1');
         sw_atc_confirmation.elements.addedToBasketText().should('include.text', 'Added to Basket');
         sw_atc_confirmation.elements.proceedToCheckoutCount().should('have.value', '1');
         navbar_main.elements.navCart().should('have.attr', 'aria-label', '1 item in shopping basket'); 
-
-        navbar_main.elements.navCart().click();
-
         // Assert that socks are in the cart
+        navbar_main.elements.navCart().click();
         sc_active_cart.elements.shoppingBasketText().should('include.text', 'Shopping Basket');
         sc_active_cart.elements.activeItemsProduct().should('include.text', 'Socks'); 
     })
