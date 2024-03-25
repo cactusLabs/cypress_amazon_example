@@ -9,7 +9,7 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 
 *Description:*
 
-*Your task is to write somem automated testing to test Amazon.*
+*Your task is to write some automated testing to test Amazon.*
 *You should follow the following steps.*
 *1. Open amazon.co.uk*
 *2. Search for "Socks"*
@@ -24,7 +24,7 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 ---
 **DEPENDENCIES**
 
-The following dependecies are required:
+The following dependencies are required:
 * *npm install*
 * *npm install cypress*
 
