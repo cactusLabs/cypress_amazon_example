@@ -11,6 +11,7 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 
 *Your task is to write some automated testing to test Amazon.*
 *You should follow the following steps.*
+
 *1. Open amazon.co.uk*
 *2. Search for "Socks"*
 *3. Add some socks to the cart*
