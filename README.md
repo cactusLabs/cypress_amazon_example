@@ -13,8 +13,11 @@ Proof of concept Cypress e2e test to verify my understanding of the fundamentals
 *You should follow the following steps.*
 
 *1. Open amazon.co.uk*
+
 *2. Search for "Socks"*
+
 *3. Add some socks to the cart*
+
 *4. Assert that socks are in the cart*
 
 *Technical Criteria:*
